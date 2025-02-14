@@ -1,0 +1,35 @@
+[0.000000] (-) TimerEvent: {}
+[0.000138] (lab1_pkg) JobQueued: {'identifier': 'lab1_pkg', 'dependencies': OrderedDict()}
+[0.000161] (lab1_pkg) JobStarted: {'identifier': 'lab1_pkg'}
+[0.099449] (-) TimerEvent: {}
+[0.199664] (-) TimerEvent: {}
+[0.299869] (-) TimerEvent: {}
+[0.400090] (-) TimerEvent: {}
+[0.447081] (lab1_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lab1_pkg', 'build', '--build-base', '/home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/build', 'install', '--record', '/home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/alexandra.bacula/turtlebot4_ws/src/lab1_pkg', 'env': {'USER': 'alexandra.bacula', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'OLDPWD': '/home/alexandra.bacula', 'HOME': '/home/alexandra.bacula', 'DESKTOP_SESSION': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'SYSTEMD_EXEC_PID': '205331', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/481852695/bus', 'COLORTERM': 'truecolor', 'CONDA_CHANGEPS1': 'no', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'alexandra.bacula', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'alexandra.bacula', 'TERM': 'xterm-256color', 'PROMPT_EOL_MARK': '', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/csci20142:@/tmp/.ICE-unix/204733,unix/csci20142:/tmp/.ICE-unix/204733', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/8e6e1933_2e4b_428f_886b_769adf7190c3', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/481852695', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.105', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/481852695/.mutter-Xwaylandauth.SA1D12', 'SSH_AUTH_SOCK': '/run/user/481852695/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_481852695_Djntjg', 'SHELL': '/bin/zsh', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'VIRTUAL_ENV_DISABLE_PROMPT': '12', 'COLCON': '1', 'VTE_VERSION': '6800', 'PYTHONPATH': '/home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages:'}, 'shell': False}
+[0.500191] (-) TimerEvent: {}
+[0.600403] (-) TimerEvent: {}
+[0.612802] (lab1_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.613282] (lab1_pkg) StdoutLine: {'line': b'writing ../../build/lab1_pkg/lab1_pkg.egg-info/PKG-INFO\n'}
+[0.613448] (lab1_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/lab1_pkg/lab1_pkg.egg-info/dependency_links.txt\n'}
+[0.613651] (lab1_pkg) StdoutLine: {'line': b'writing entry points to ../../build/lab1_pkg/lab1_pkg.egg-info/entry_points.txt\n'}
+[0.613815] (lab1_pkg) StdoutLine: {'line': b'writing requirements to ../../build/lab1_pkg/lab1_pkg.egg-info/requires.txt\n'}
+[0.613958] (lab1_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/lab1_pkg/lab1_pkg.egg-info/top_level.txt\n'}
+[0.615235] (lab1_pkg) StdoutLine: {'line': b"reading manifest file '../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'\n"}
+[0.615897] (lab1_pkg) StdoutLine: {'line': b"writing manifest file '../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'\n"}
+[0.616036] (lab1_pkg) StdoutLine: {'line': b'running build\n'}
+[0.616103] (lab1_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.616175] (lab1_pkg) StdoutLine: {'line': b'copying lab1_pkg/speed_behavior.py -> /home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/build/lib/lab1_pkg\n'}
+[0.616437] (lab1_pkg) StdoutLine: {'line': b'running install\n'}
+[0.616759] (lab1_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.617399] (lab1_pkg) StdoutLine: {'line': b'copying /home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/build/lib/lab1_pkg/speed_behavior.py -> /home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg\n'}
+[0.618182] (lab1_pkg) StdoutLine: {'line': b'byte-compiling /home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg/speed_behavior.py to speed_behavior.cpython-310.pyc\n'}
+[0.619922] (lab1_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.620059] (lab1_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.621343] (lab1_pkg) StdoutLine: {'line': b"removing '/home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.621732] (lab1_pkg) StdoutLine: {'line': b'Copying ../../build/lab1_pkg/lab1_pkg.egg-info to /home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg-0.0.0-py3.10.egg-info\n'}
+[0.622788] (lab1_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.639038] (lab1_pkg) StdoutLine: {'line': b'Installing speed_behavior_node script to /home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/lib/lab1_pkg\n'}
+[0.639337] (lab1_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/install.log'\n"}
+[0.654135] (lab1_pkg) CommandEnded: {'returncode': 0}
+[0.663309] (lab1_pkg) JobEnded: {'identifier': 'lab1_pkg', 'rc': 0}
+[0.663988] (-) EventReactorShutdown: {}

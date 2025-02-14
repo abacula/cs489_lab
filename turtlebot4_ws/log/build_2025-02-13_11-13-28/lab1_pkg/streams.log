@@ -1,0 +1,33 @@
+[1.640s] Invoking command in '/home/alexandra.bacula/turtlebot4_ws/src/lab1_pkg': PYTHONPATH=/home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab1_pkg build --build-base /home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/build install --record /home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/install.log --single-version-externally-managed install_data
+[1.867s] running egg_info
+[1.867s] creating ../../build/lab1_pkg/lab1_pkg.egg-info
+[1.867s] writing ../../build/lab1_pkg/lab1_pkg.egg-info/PKG-INFO
+[1.868s] writing dependency_links to ../../build/lab1_pkg/lab1_pkg.egg-info/dependency_links.txt
+[1.868s] writing entry points to ../../build/lab1_pkg/lab1_pkg.egg-info/entry_points.txt
+[1.869s] writing requirements to ../../build/lab1_pkg/lab1_pkg.egg-info/requires.txt
+[1.869s] writing top-level names to ../../build/lab1_pkg/lab1_pkg.egg-info/top_level.txt
+[1.869s] writing manifest file '../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'
+[1.871s] reading manifest file '../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'
+[1.871s] writing manifest file '../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'
+[1.871s] running build
+[1.871s] running build_py
+[1.871s] creating /home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/build
+[1.871s] creating /home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/build/lib
+[1.872s] creating /home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/build/lib/lab1_pkg
+[1.872s] copying lab1_pkg/__init__.py -> /home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/build/lib/lab1_pkg
+[1.872s] running install
+[1.872s] running install_lib
+[1.872s] creating /home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg
+[1.873s] copying /home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/build/lib/lab1_pkg/__init__.py -> /home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg
+[1.873s] byte-compiling /home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg/__init__.py to __init__.cpython-310.pyc
+[1.873s] running install_data
+[1.873s] creating /home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/share/ament_index
+[1.874s] creating /home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/share/ament_index/resource_index
+[1.874s] creating /home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/share/ament_index/resource_index/packages
+[1.874s] copying resource/lab1_pkg -> /home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/share/ament_index/resource_index/packages
+[1.874s] copying package.xml -> /home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/share/lab1_pkg
+[1.874s] running install_egg_info
+[1.876s] Copying ../../build/lab1_pkg/lab1_pkg.egg-info to /home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg-0.0.0-py3.10.egg-info
+[1.878s] running install_scripts
+[1.893s] writing list of installed files to '/home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/install.log'
+[1.907s] Invoked command in '/home/alexandra.bacula/turtlebot4_ws/src/lab1_pkg' returned '0': PYTHONPATH=/home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab1_pkg build --build-base /home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/build install --record /home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/install.log --single-version-externally-managed install_data
