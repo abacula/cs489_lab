@@ -1,0 +1,5 @@
+  File "/home/alexandra.bacula/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg/scan_testing.py", line 49
+    self.get_logger().info("distance: %s, angle: %s" % str(scan_point) str(angle))
+                           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax. Perhaps you forgot a comma?
+

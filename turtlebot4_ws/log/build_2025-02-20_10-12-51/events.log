@@ -1,0 +1,63 @@
+[0.000000] (-) TimerEvent: {}
+[0.000095] (lab1_pkg) JobQueued: {'identifier': 'lab1_pkg', 'dependencies': OrderedDict()}
+[0.000123] (lab2_pkg) JobQueued: {'identifier': 'lab2_pkg', 'dependencies': OrderedDict()}
+[0.000140] (lab1_pkg) JobStarted: {'identifier': 'lab1_pkg'}
+[0.006368] (lab2_pkg) JobStarted: {'identifier': 'lab2_pkg'}
+[0.099425] (-) TimerEvent: {}
+[0.199614] (-) TimerEvent: {}
+[0.299820] (-) TimerEvent: {}
+[0.400012] (-) TimerEvent: {}
+[0.500234] (-) TimerEvent: {}
+[0.600419] (-) TimerEvent: {}
+[0.700620] (-) TimerEvent: {}
+[0.782696] (lab1_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lab1_pkg', 'build', '--build-base', '/home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/build', 'install', '--record', '/home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/alexandra.bacula/turtlebot4_ws/src/lab1_pkg', 'env': {'USER': 'alexandra.bacula', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'OLDPWD': '/home/alexandra.bacula', 'HOME': '/home/alexandra.bacula', 'DESKTOP_SESSION': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '101150', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/481852695/bus', 'COLORTERM': 'truecolor', 'CONDA_CHANGEPS1': 'no', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/alexandra.bacula/turtlebot4_ws/install', 'LOGNAME': 'alexandra.bacula', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'alexandra.bacula', 'TERM': 'xterm-256color', 'PROMPT_EOL_MARK': '', 'ROS_SUPER_CLIENT': 'True', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/csci20142:@/tmp/.ICE-unix/101126,unix/csci20142:/tmp/.ICE-unix/101126', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f80d5492_c35c_40ac_b717_1bec90756810', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/481852695', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.125', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/481852695/.mutter-Xwaylandauth.9O7K22', 'SSH_AUTH_SOCK': '/run/user/481852695/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'AMENT_PREFIX_PATH': '/home/alexandra.bacula/turtlebot4_ws/install/lab2_pkg:/home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg:/opt/ros/humble', 'ROS_DOMAIN_ID': '2', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_481852695_l6Ww4a', 'SHELL': '/bin/zsh', 'ROS_DISCOVERY_SERVER': '10.5.112.149:11811;', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'VIRTUAL_ENV_DISABLE_PROMPT': '12', 'PYTHONPATH': '/home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages:/home/alexandra.bacula/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages:/home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.789340] (lab2_pkg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/lab2_pkg', 'build', '--build-base', '/home/alexandra.bacula/turtlebot4_ws/build/lab2_pkg/build', 'install', '--record', '/home/alexandra.bacula/turtlebot4_ws/build/lab2_pkg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/alexandra.bacula/turtlebot4_ws/src/lab2_pkg', 'env': {'USER': 'alexandra.bacula', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'OLDPWD': '/home/alexandra.bacula', 'HOME': '/home/alexandra.bacula', 'DESKTOP_SESSION': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'SYSTEMD_EXEC_PID': '101150', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/481852695/bus', 'COLORTERM': 'truecolor', 'CONDA_CHANGEPS1': 'no', 'WAYLAND_DISPLAY': 'wayland-0', 'ROS_DISTRO': 'humble', 'COLCON_PREFIX_PATH': '/home/alexandra.bacula/turtlebot4_ws/install', 'LOGNAME': 'alexandra.bacula', '_': '/usr/bin/colcon', 'XDG_SESSION_CLASS': 'user', 'ROS_VERSION': '2', 'USERNAME': 'alexandra.bacula', 'TERM': 'xterm-256color', 'PROMPT_EOL_MARK': '', 'ROS_SUPER_CLIENT': 'True', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/csci20142:@/tmp/.ICE-unix/101126,unix/csci20142:/tmp/.ICE-unix/101126', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/f80d5492_c35c_40ac_b717_1bec90756810', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/481852695', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'XDG_SESSION_DESKTOP': 'ubuntu', 'GNOME_TERMINAL_SERVICE': ':1.125', 'XMODIFIERS': '@im=ibus', 'XAUTHORITY': '/run/user/481852695/.mutter-Xwaylandauth.9O7K22', 'SSH_AUTH_SOCK': '/run/user/481852695/keyring/ssh', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'AMENT_PREFIX_PATH': '/home/alexandra.bacula/turtlebot4_ws/install/lab2_pkg:/home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg:/opt/ros/humble', 'ROS_DOMAIN_ID': '2', 'KRB5CCNAME': 'FILE:/tmp/krb5cc_481852695_l6Ww4a', 'SHELL': '/bin/zsh', 'ROS_DISCOVERY_SERVER': '10.5.112.149:11811;', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/alexandra.bacula/turtlebot4_ws/build/lab2_pkg', 'XDG_DATA_DIRS': '/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'VIRTUAL_ENV_DISABLE_PROMPT': '12', 'PYTHONPATH': '/home/alexandra.bacula/turtlebot4_ws/build/lab2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexandra.bacula/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages:/home/alexandra.bacula/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages:/home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'VTE_VERSION': '6800'}, 'shell': False}
+[0.800685] (-) TimerEvent: {}
+[0.900853] (-) TimerEvent: {}
+[0.991363] (lab1_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.991896] (lab1_pkg) StdoutLine: {'line': b'writing ../../build/lab1_pkg/lab1_pkg.egg-info/PKG-INFO\n'}
+[0.992070] (lab1_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/lab1_pkg/lab1_pkg.egg-info/dependency_links.txt\n'}
+[0.992220] (lab1_pkg) StdoutLine: {'line': b'writing entry points to ../../build/lab1_pkg/lab1_pkg.egg-info/entry_points.txt\n'}
+[0.992322] (lab1_pkg) StdoutLine: {'line': b'writing requirements to ../../build/lab1_pkg/lab1_pkg.egg-info/requires.txt\n'}
+[0.992430] (lab1_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/lab1_pkg/lab1_pkg.egg-info/top_level.txt\n'}
+[0.993622] (lab1_pkg) StdoutLine: {'line': b"reading manifest file '../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'\n"}
+[0.994227] (lab1_pkg) StdoutLine: {'line': b"writing manifest file '../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'\n"}
+[0.994336] (lab1_pkg) StdoutLine: {'line': b'running build\n'}
+[0.994409] (lab1_pkg) StdoutLine: {'line': b'running build_py\n'}
+[0.994650] (lab1_pkg) StdoutLine: {'line': b'running install\n'}
+[0.994973] (lab1_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[0.995954] (lab2_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[0.996041] (lab1_pkg) StdoutLine: {'line': b'running install_data\n'}
+[0.996115] (lab1_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.996864] (lab2_pkg) StdoutLine: {'line': b'writing ../../build/lab2_pkg/lab2_pkg.egg-info/PKG-INFO\n'}
+[0.997066] (lab2_pkg) StdoutLine: {'line': b'writing dependency_links to ../../build/lab2_pkg/lab2_pkg.egg-info/dependency_links.txt\n'}
+[0.997252] (lab2_pkg) StdoutLine: {'line': b'writing entry points to ../../build/lab2_pkg/lab2_pkg.egg-info/entry_points.txt\n'}
+[0.997374] (lab2_pkg) StdoutLine: {'line': b'writing requirements to ../../build/lab2_pkg/lab2_pkg.egg-info/requires.txt\n'}
+[0.997478] (lab2_pkg) StdoutLine: {'line': b'writing top-level names to ../../build/lab2_pkg/lab2_pkg.egg-info/top_level.txt\n'}
+[0.998007] (lab1_pkg) StdoutLine: {'line': b"removing '/home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[0.998212] (lab1_pkg) StdoutLine: {'line': b'Copying ../../build/lab1_pkg/lab1_pkg.egg-info to /home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg-0.0.0-py3.10.egg-info\n'}
+[0.999137] (lab1_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[0.999404] (lab2_pkg) StdoutLine: {'line': b"reading manifest file '../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'\n"}
+[1.000374] (lab2_pkg) StdoutLine: {'line': b"writing manifest file '../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'\n"}
+[1.000464] (lab2_pkg) StdoutLine: {'line': b'running build\n'}
+[1.000523] (lab2_pkg) StdoutLine: {'line': b'running build_py\n'}
+[1.000635] (lab2_pkg) StdoutLine: {'line': b'copying lab2_pkg/lab2_test.py -> /home/alexandra.bacula/turtlebot4_ws/build/lab2_pkg/build/lib/lab2_pkg\n'}
+[1.000907] (-) TimerEvent: {}
+[1.000989] (lab2_pkg) StdoutLine: {'line': b'running install\n'}
+[1.001278] (lab2_pkg) StdoutLine: {'line': b'running install_lib\n'}
+[1.002009] (lab2_pkg) StdoutLine: {'line': b'copying /home/alexandra.bacula/turtlebot4_ws/build/lab2_pkg/build/lib/lab2_pkg/lab2_test.py -> /home/alexandra.bacula/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg\n'}
+[1.003288] (lab2_pkg) StdoutLine: {'line': b'byte-compiling /home/alexandra.bacula/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg/lab2_test.py to lab2_test.cpython-310.pyc\n'}
+[1.005518] (lab2_pkg) StdoutLine: {'line': b'running install_data\n'}
+[1.005626] (lab2_pkg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.007020] (lab2_pkg) StdoutLine: {'line': b"removing '/home/alexandra.bacula/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.007285] (lab2_pkg) StdoutLine: {'line': b'Copying ../../build/lab2_pkg/lab2_pkg.egg-info to /home/alexandra.bacula/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg-0.0.0-py3.10.egg-info\n'}
+[1.008330] (lab2_pkg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.015180] (lab1_pkg) StdoutLine: {'line': b'Installing speed_behavior_node script to /home/alexandra.bacula/turtlebot4_ws/install/lab1_pkg/lib/lab1_pkg\n'}
+[1.015464] (lab1_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/alexandra.bacula/turtlebot4_ws/build/lab1_pkg/install.log'\n"}
+[1.024047] (lab2_pkg) StdoutLine: {'line': b'Installing lab2_test_node script to /home/alexandra.bacula/turtlebot4_ws/install/lab2_pkg/lib/lab2_pkg\n'}
+[1.024502] (lab2_pkg) StdoutLine: {'line': b"writing list of installed files to '/home/alexandra.bacula/turtlebot4_ws/build/lab2_pkg/install.log'\n"}
+[1.032937] (lab1_pkg) CommandEnded: {'returncode': 0}
+[1.042206] (lab1_pkg) JobEnded: {'identifier': 'lab1_pkg', 'rc': 0}
+[1.045317] (lab2_pkg) CommandEnded: {'returncode': 0}
+[1.050670] (lab2_pkg) JobEnded: {'identifier': 'lab2_pkg', 'rc': 0}
+[1.051353] (-) EventReactorShutdown: {}

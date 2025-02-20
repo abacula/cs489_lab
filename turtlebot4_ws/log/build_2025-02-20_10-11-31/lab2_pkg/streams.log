@@ -1,0 +1,24 @@
+[0.793s] Invoking command in '/home/alexandra.bacula/turtlebot4_ws/src/lab2_pkg': PYTHONPATH=/home/alexandra.bacula/turtlebot4_ws/build/lab2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexandra.bacula/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab2_pkg build --build-base /home/alexandra.bacula/turtlebot4_ws/build/lab2_pkg/build install --record /home/alexandra.bacula/turtlebot4_ws/build/lab2_pkg/install.log --single-version-externally-managed install_data
+[1.001s] running egg_info
+[1.001s] writing ../../build/lab2_pkg/lab2_pkg.egg-info/PKG-INFO
+[1.001s] writing dependency_links to ../../build/lab2_pkg/lab2_pkg.egg-info/dependency_links.txt
+[1.001s] writing entry points to ../../build/lab2_pkg/lab2_pkg.egg-info/entry_points.txt
+[1.001s] writing requirements to ../../build/lab2_pkg/lab2_pkg.egg-info/requires.txt
+[1.002s] writing top-level names to ../../build/lab2_pkg/lab2_pkg.egg-info/top_level.txt
+[1.003s] reading manifest file '../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'
+[1.004s] writing manifest file '../../build/lab2_pkg/lab2_pkg.egg-info/SOURCES.txt'
+[1.004s] running build
+[1.004s] running build_py
+[1.004s] copying lab2_pkg/lab2_test.py -> /home/alexandra.bacula/turtlebot4_ws/build/lab2_pkg/build/lib/lab2_pkg
+[1.004s] running install
+[1.004s] running install_lib
+[1.005s] copying /home/alexandra.bacula/turtlebot4_ws/build/lab2_pkg/build/lib/lab2_pkg/lab2_test.py -> /home/alexandra.bacula/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg
+[1.006s] byte-compiling /home/alexandra.bacula/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg/lab2_test.py to lab2_test.cpython-310.pyc
+[1.011s] running install_data
+[1.011s] running install_egg_info
+[1.012s] removing '/home/alexandra.bacula/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.012s] Copying ../../build/lab2_pkg/lab2_pkg.egg-info to /home/alexandra.bacula/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages/lab2_pkg-0.0.0-py3.10.egg-info
+[1.013s] running install_scripts
+[1.030s] Installing lab2_test_node script to /home/alexandra.bacula/turtlebot4_ws/install/lab2_pkg/lib/lab2_pkg
+[1.030s] writing list of installed files to '/home/alexandra.bacula/turtlebot4_ws/build/lab2_pkg/install.log'
+[1.063s] Invoked command in '/home/alexandra.bacula/turtlebot4_ws/src/lab2_pkg' returned '0': PYTHONPATH=/home/alexandra.bacula/turtlebot4_ws/build/lab2_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/alexandra.bacula/turtlebot4_ws/install/lab2_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab2_pkg build --build-base /home/alexandra.bacula/turtlebot4_ws/build/lab2_pkg/build install --record /home/alexandra.bacula/turtlebot4_ws/build/lab2_pkg/install.log --single-version-externally-managed install_data

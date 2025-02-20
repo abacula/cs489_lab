@@ -1,0 +1,4 @@
+[console_scripts]
+lab2_test_node = lab2_pkg.lab2_test:main
+scan_test_node = lab2_pkg.scan_testing:main
+
